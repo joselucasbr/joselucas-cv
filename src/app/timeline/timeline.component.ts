@@ -5,7 +5,7 @@ import { Timeline, TimelineList } from '../shared/timeline.model';
 @Component({
   selector: 'cv-timeline',
   templateUrl: './timeline.component.html',
-  styleUrls: ['./timeline.component.css']
+  styleUrls: ['../bars/font-awesome.min.css','./timeline.component.css']
 })
 export class TimelineComponent {
   timelineList: TimelineList = {};

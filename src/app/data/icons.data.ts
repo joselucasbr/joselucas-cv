@@ -4,15 +4,15 @@ export const iconsList:IconsList = {
     "title":"strengths",
     "icons": [
         {
-            "class":"glyphicon glyphicon-heart",
+            "class":"fa fa-heart",
             "label":"PASSION"
         },
         {
-            "class":"glyphicon glyphicon-send",
+            "class":"fa fa-send",
             "label":"ADAPTABILITY"
         },
         {
-            "class":"glyphicon glyphicon-tower",
+            "class":"fa fa-bullseye",
             "label":"COMPETENCE"
         }				          
     ]

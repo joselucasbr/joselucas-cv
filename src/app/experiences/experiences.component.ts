@@ -7,7 +7,7 @@ import { Experience } from "../shared/experience.model";
     {
         selector:'cv-experiences',
         templateUrl:'./experiences.component.html',
-        styleUrls:['./experiences.component.css']
+        styleUrls:['../bars/font-awesome.min.css','./experiences.component.css']
     }
 )
 export class ExperiencesComponent {

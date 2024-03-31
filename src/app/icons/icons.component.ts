@@ -6,7 +6,7 @@ import { Icons, IconsList } from '../shared/icons.model';
 @Component({
   selector: 'cv-icons',
   templateUrl: './icons.component.html',
-  styleUrls: ['./icons.component.css']
+  styleUrls: ['../bars/font-awesome.min.css','./icons.component.css']
 })
 export class IconsComponent {
   iconsList: IconsList = {};
