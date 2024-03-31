@@ -1,0 +1,17 @@
+<div *ngFor="let exp of experiences; let last = last;" >
+  <h3>{{ exp.title }}</h3>
+  <h4 class="highlight-title">{{ exp.project }}</h4>
+  <div class="row">
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ exp.period }}<br/>
+    </div>
+    <div class="col-md-6">
+      <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {{ exp.company }}<br/>
+    </div>
+  </div>
+  {{ exp.content }}
+  <ul class="experience-list">
+    <li *ngFor="let line of exp.list">{{ line }}</li>
+  </ul>
+  <hr  *ngIf="!last"/>						
+</div>

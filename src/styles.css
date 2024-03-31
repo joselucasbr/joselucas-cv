@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+	background: rgba(0, 0, 0, 0) url("/assets/images/bg_resume.png") repeat-x scroll 0 0 !important;
+}
+
+.section-header {
+    border-bottom: 4px solid #003459 !important;
+    margin: 40px 0 20px;
+    padding-bottom: 9px;
+    color: #003459;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+h1,h2, .glyphicon{
+	color: #003459 !important;
+}
+.highlight-title{
+	color: #BB9644 !important;
+}
+
+h1{
+	font-size: 42px;
+}
+
+.lead{
+	font-size: 28px;
+}
+
+.big-icon{
+	/* font-size: 1.5em;*/
+	color: #BB9644 !important;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

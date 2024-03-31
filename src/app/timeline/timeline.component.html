@@ -1,0 +1,10 @@
+<div>
+    <div *ngFor="let line of timelineList.timeline; let last = last;">
+        <p>
+            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ line.period }} - 
+            <strong> {{ line.title }}</strong>
+        </p>	
+        <p>{{ line.subtitle }}</p>
+        <hr  *ngIf="!last" />
+    </div>
+</div>

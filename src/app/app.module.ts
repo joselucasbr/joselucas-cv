@@ -2,10 +2,29 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
+import { CoverComponent } from './cover/cover.component';
+import { SectionComponent } from './section/section.component';
+import { SummaryComponent } from './summary/summary.component';
+import { TagsComponent } from './tags/tags.component';
+import { BarsComponent } from './bars/bars.component';
+import { IconsComponent } from './icons/icons.component';
+import { TimelineComponent } from './timeline/timeline.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ExperiencesComponent,
+    CoverComponent,
+    SectionComponent,
+    SummaryComponent,
+    TagsComponent,
+    BarsComponent,
+    IconsComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule

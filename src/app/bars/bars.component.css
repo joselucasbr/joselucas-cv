@@ -1,0 +1,15 @@
+.fa-circle::before {
+    content: "\f111";
+}
+.fa-circle{
+	color: #003459 !important;
+	vertical-align: bottom;
+    margin-left: 4px;	
+}
+.inactive-circle{
+	color: #ccc !important;
+	/*color: #e2711d;*/
+}
+.circle-bar{
+	font-size: 1.1em;
+}

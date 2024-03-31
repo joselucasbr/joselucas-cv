@@ -1,0 +1,6 @@
+<div  *ngFor="let tag of tagsList.list">
+    <h3 class="highlight-title" *ngIf="tag.title">{{ tag.title}}</h3>
+    <p>
+        <span  *ngFor="let entry of tag.tags" class="label label-skill">{{ entry }}</span>
+    </p>
+</div>
