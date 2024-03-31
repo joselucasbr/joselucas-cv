@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "joselucas-cv:build:production"
+              "buildTarget": "joselucas-cv:build:production"
             },
             "development": {
-              "browserTarget": "joselucas-cv:build:development"
+              "buildTarget": "joselucas-cv:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "joselucas-cv:build"
+            "buildTarget": "joselucas-cv:build"
           }
         },
         "test": {
