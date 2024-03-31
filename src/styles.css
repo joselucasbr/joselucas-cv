@@ -47,5 +47,9 @@ h1{
 
     .container {
         max-width: 100% !important;
-      }
+    }
+    hr {
+        border-top: 2px solid !important;
+        opacity: .35!important;
+    }
 }

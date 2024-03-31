@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
-import { CoverComponent } from './cover/cover.component';
 import { SectionComponent } from './section/section.component';
 import { SummaryComponent } from './summary/summary.component';
 import { TagsComponent } from './tags/tags.component';
@@ -18,7 +17,6 @@ import { TimelineComponent } from './timeline/timeline.component';
     AppComponent,
     HeaderComponent,
     ExperiencesComponent,
-    CoverComponent,
     SectionComponent,
     SummaryComponent,
     TagsComponent,
