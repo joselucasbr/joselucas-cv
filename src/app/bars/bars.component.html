@@ -1,15 +1,15 @@
 <div>
     <div class="row" *ngFor="let bar of barsList.bars; let last = last;"> 
-       <div class="col-md-6">
+       <div class="col-sm-6">
            <strong>{{ bar.name }}</strong><br/>
            {{ bar.label }}
        </div>
-       <div class="col-md-6">
+       <div class="col-sm-6">
            <p class="circle-bar">
                <span class="fa fa-circle {{ i<=bar.level?'':'inactive-circle' }}" *ngFor="let i of [1,2,3,4,5]"></span>
            </p>
        </div>
-       <div class="col-md-12"  *ngIf="!last">
+       <div class="col-sm-12"  *ngIf="!last">
            <hr />
        </div>
    </div>			
